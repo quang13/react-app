@@ -8,6 +8,27 @@ In the project directory, you can run:
 
 ### `npm start`
 
+## Question 1, 2: In homepage. I used the functions written in question 1 for question 2. Details of the solutions to question 1 are at path: src/helper/timer.ts
+
+## Question 3: route /profile in header
+
+## I divide the components as follows:
+
+- header (src/layout/header.tsx) is
+  the common header for the entire app.
+- The profile page is divided into
+  smaller components: Including the index.tsx file to summarize the
+  components that I wrote for the profile.
+  And:
+- Component
+  personal-detail (src/component/profile/personal-detail)
+- Component
+  profile-consoles (src/component/profile/consoles)
+- Dividing like this
+  will be more effective because I know where each part is, easy to
+  maintain and extend without having to worry about other changes to the
+  entire profile page.
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
